@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             'role' => '1',
             'status' => 1,
             'hp' => '08123456789',
-            'password' => bcrypt('P@55word'),
+            'password' => bcrypt('admin'),
         ]);
         User::factory()->create([
             'nama' => 'Yuris ALkhalifi',
